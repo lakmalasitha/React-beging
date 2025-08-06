@@ -1,0 +1,27 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "this is namasthe react by asitha ruwange",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html,"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lakmalasitha/React-beging.git"
+  },
+  "author": "Asitha Ruwange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakmalasitha/React-beging.git/issues"
+  },
+  "homepage": "https://github.com/lakmalasitha/React-beging.git",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
