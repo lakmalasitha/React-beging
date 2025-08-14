@@ -1,11 +1,5 @@
 const RestCard = ({ resData }) => {
-  const {
-    image,
-    name,
-    address: { street, city },
-    rating,
-    cuisine,
-  } = resData;
+  const { image, name, location, rating, cuisine } = resData;
   return (
     <div className="res-card">
       <div className="res-image">
@@ -13,10 +7,9 @@ const RestCard = ({ resData }) => {
       </div>
       <div className="res-details">
         <h2>{name}</h2>
-        <h3>{[street]}</h3>
-        <h3>{city}</h3>
+        <h3>{location}</h3>
         <h4>{rating}</h4>
-        <p>{cuisine.join(" , ")}</p>
+        <p>{cuisine}</p>
       </div>
     </div>
   );
