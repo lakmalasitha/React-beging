@@ -1,5 +1,5 @@
 export const LOGO_URL =
-  "https://thumbs.dreamstime.com/b/food-delivery-logo-design-template-134749604.jpg";
+  "https://i.pinimg.com/564x/59/5f/a5/595fa5ffb3d67f62ceabaa0d9a40d1e2.jpg";
 
 export const API_CONFIG = {
   url: "https://api.jsonbin.io/v3/b/68948068f7e7a370d1f633a5",
